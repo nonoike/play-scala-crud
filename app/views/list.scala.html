@@ -16,7 +16,7 @@
                 <tbody>
                     @items.map { todo =>
                         <tr>
-                            <td>@todo.name</td>
+                            <td>@todo.name <a href="/todo/@todo.id" class="btn btn-primary">編集</a> </td>
                         </tr>
                     }
                 </tbody>
